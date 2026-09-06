@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <title>Contact Us | FreshMart Supermarket</title>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <div>
+        <p class="eyebrow">FreshMart Supermarket</p>
+        <h1>Need help with your order?</h1>
+      </div>
+      <a class="btn" href="https://wa.me/2349035915493">Order on WhatsApp</a>
+    </div>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="contact.html" class="active">Contact Us</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section class="page-intro">
+      <h2>GET IN TOUCH</h2>
+      <p>We’re here to help with orders, questions, and everything supermarket.</p>
+    </section>
+    <section class="contact-details">
+      <div class="contact-card">
+        <h3>Customer Support</h3>
+        <p>Email: <a href="mailto:info@freshmart.com">info@freshmart.com</a></p>
+        <p>Phone: <a href="tel:+2349035915493">+234 903 591 5493</a></p>
+        <p>Address: 123 Main Street, Lagos, Nigeria</p>
+      </div>
+      <div class="contact-card contact-form">
+        <h3>Send a Message</h3>
+        <form action="https://formspree.io/f/mbgjabny" method="POST">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="How can we help?" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+        <div id="form-message" class="form-message" aria-live="polite"></div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; <span id="footer-year">2026</span> FreshMart Supermarket. All rights reserved.</p>
+  </footer>
+  <script src="main.js" defer></script>
+</body>
+</html>
